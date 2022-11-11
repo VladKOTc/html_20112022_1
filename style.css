@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: #add8e7;
+}
+
+hr{
+    padding: 0px, 0px, 0px, 0px;
+    margin: 0px;
+}
+
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    margin:2% 7%;
+    border:1px solid black;
+    width: 7%;
+    text-align: center;
+}
+ul li a{
+    font-size:x-large;
+    text-decoration: none;
+    color: black;
+}
+
+ul li a.wide{
+    display: block;
+}
+
+ul li:hover{
+    border: 1px solid white;
+    background-color: grey;
+    
+}
+
+ul li a:hover{
+    color: white;
+}
+
+.z2{
+    padding-top: 10%;
+}
+
+p.yellow{
+    color: yellow;
+    /* font-size: x-large; */
+}
+p.blue{
+    color: blue;
+    /* font-size: x-large; */
+}
+p{
+    display: inline-block;
+}
+
+.textSize
+{
+    font-size: x-large;
+    display: inline-block;
+    transition: all 2s .5s;
+}
+.textSize:hover
+{
+    opacity: 0;
+}
